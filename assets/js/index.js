@@ -70,3 +70,7 @@ function renderAvatar(user) {
             .show()
     }
 }
+
+function changeClass() {
+    $('#aa').addClass('layui-this').siblings().removeClass('layui-this')
+}
